@@ -9,7 +9,7 @@ resumir el proposito de la plataforma de experiencias
 integrantes del equipo colocar los nombres completos de los tres alumnos que forman el grupo
 
 Amin Rojas Chavarria
-
+Danny Mesén Aguero
 
 estructura del proyecto mostrar la lista de arhivos html y
 
