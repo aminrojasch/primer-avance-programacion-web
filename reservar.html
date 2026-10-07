@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar | QuestPass CR</title>
+    <meta name="description" content="Formulario de solicitud de reserva para experiencias en QuestPass CR.">
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+
+    <!-- Encabezado y navegación principal -->
+    <header>
+        <a href="index.html">
+            <strong>QuestPass CR</strong>
+        </a>
+        <nav aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="reservar.html">Reservar</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Solicitar una reserva</h1>
+
+        <form action="#" method="POST">
+            
+            <!-- Grupo 1: Datos personales del cliente -->
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <p>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" minlength="3" maxlength="60" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono de contacto:</label><br>
+                    <input type="tel" id="telefono" name="telefono" maxlength="9" required placeholder="8888-8888">
+                </p>
+            </fieldset>
+
+            <!-- Grupo 2: Detalles de la reserva -->
+            <fieldset>
+                <legend>Detalles de la experiencia</legend>
+
+                <p>
+                    <label for="experiencia">Seleccione la experiencia:</label><br>
+                    <select id="experiencia" name="experiencia" required>
+                        <option value="">-- Seleccionar una opción --</option>
+                        <option value="QST-001">QST-001 · Tour de aventura y senderismo nocturno</option>
+                        <option value="QST-002">QST-002 · Taller de cocina gastronómica local</option>
+                        <option value="QST-003">QST-003 · Cata de café de especialidad y barismo</option>
+                        <option value="QST-004">QST-004 · Taller de fotografía urbana y nocturna</option>
+                        <option value="QST-005">QST-005 · Sesión de yoga y meditación al atardecer</option>
+                        <option value="QST-006">QST-006 · Tour cultural y de arte urbano</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="entradas">Cantidad de entradas (1 a 4):</label><br>
+                    <input type="number" id="entradas" name="entradas" min="1" max="4" required>
+                </p>
+            </fieldset>
+
+            <!-- Términos y confirmación -->
+            <fieldset>
+                <legend>Condiciones del servicio</legend>
+
+                <p>
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    <label for="condiciones">Acepto las condiciones y políticas de reserva de QuestPass CR.</label>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit" class="boton">Solicitar reserva</button>
+            </p>
+
+        </form>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>QuestPass CR · Proyecto académico SOFT-06</p>
+    </footer>
+
+</body>
+</html>

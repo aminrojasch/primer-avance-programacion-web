@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | QuestPass CR</title>
+    <meta name="description" content="Formulario de contacto y consultas generales para QuestPass CR.">
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+
+    <!-- Encabezado y navegación principal -->
+    <header>
+        <a href="index.html">
+            <strong>QuestPass CR</strong>
+        </a>
+        <nav aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="reservar.html">Reservar</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Contacto</h1>
+
+        <section>
+            <p>¿Tienes dudas o preguntas sobre alguna experiencia de QuestPass CR? Completa el formulario a continuación y te responderemos a la brevedad.</p>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Enviar un mensaje</legend>
+
+                    <p>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" minlength="3" maxlength="60" required>
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+
+                    <p>
+                        <label for="asunto">Asunto:</label><br>
+                        <input type="text" id="asunto" name="asunto" minlength="4" maxlength="80" required placeholder="Ej: Consulta sobre disponibilidad">
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" minlength="10" required placeholder="Escribe aquí tu consulta..."></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit" class="boton">Enviar mensaje</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>QuestPass CR · Proyecto académico SOFT-06</p>
+    </footer>
+
+</body>
+</html>
+

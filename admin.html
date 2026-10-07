@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración | QuestPass CR</title>
+    <meta name="description" content="Maqueta visual del panel administrativo para gestión de experiencias y reservas en QuestPass CR.">
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+
+    <!-- Encabezado e identidad del sitio -->
+    <header>
+        <a href="index.html">
+            <strong>QuestPass CR</strong>
+        </a>
+        <nav aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="reservar.html">Reservar</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="admin.html">Administración</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal del panel -->
+    <main>
+        <h1>Panel de Administración</h1>
+
+        <!-- Sección 1: Gestión de Experiencias (6 registros oficiales) -->
+        <section aria-labelledby="titulo-experiencias">
+            <h2 id="titulo-experiencias">Gestión de Experiencias</h2>
+
+            <table>
+                <caption>Catálogo oficial de experiencias registradas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Título de la Experiencia</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Modalidad</th>
+                        <th scope="col">Cupos</th>
+                        <th scope="col">Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>QST-001</td>
+                        <td>Tour de aventura y senderismo nocturno</td>
+                        <td><time datetime="2026-10-20">20 oct 2026</time></td>
+                        <td>Presencial</td>
+                        <td>15</td>
+                        <td>₡15.000</td>
+                    </tr>
+                    <tr>
+                        <td>QST-002</td>
+                        <td>Taller de cocina gastronómica local</td>
+                        <td><time datetime="2026-11-05">05 nov 2026</time></td>
+                        <td>Presencial</td>
+                        <td>10</td>
+                        <td>₡25.000</td>
+                    </tr>
+                    <tr>
+                        <td>QST-003</td>
+                        <td>Cata de café de especialidad y barismo</td>
+                        <td><time datetime="2026-11-18">18 nov 2026</time></td>
+                        <td>Presencial</td>
+                        <td>12</td>
+                        <td>₡18.000</td>
+                    </tr>
+                    <tr>
+                        <td>QST-004</td>
+                        <td>Taller de fotografía urbana y nocturna</td>
+                        <td><time datetime="2026-12-02">02 dic 2026</time></td>
+                        <td>Presencial</td>
+                        <td>15</td>
+                        <td>₡20.000</td>
+                    </tr>
+                    <tr>
+                        <td>QST-005</td>
+                        <td>Sesión de yoga y meditación al atardecer</td>
+                        <td><time datetime="2026-12-15">15 dic 2026</time></td>
+                        <td>Presencial</td>
+                        <td>20</td>
+                        <td>₡12.000</td>
+                    </tr>
+                    <tr>
+                        <td>QST-006</td>
+                        <td>Tour cultural y de arte urbano</td>
+                        <td><time datetime="2026-12-20">20 dic 2026</time></td>
+                        <td>Presencial</td>
+                        <td>25</td>
+                        <td>₡10.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección 2: Gestión de Reservas (Tabla vacía) -->
+        <section aria-labelledby="titulo-reservas">
+            <h2 id="titulo-reservas">Reservas Registradas</h2>
+
+            <table>
+                <caption>Histórico de solicitudes de reserva recibidas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Cliente</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col">Teléfono</th>
+                        <th scope="col">Experiencia</th>
+                        <th scope="col">Entradas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5" style="text-align: center;">Aún no hay reservas registradas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>QuestPass CR · Proyecto académico SOFT-06</p>
+    </footer>
+
+</body>
+</html>
