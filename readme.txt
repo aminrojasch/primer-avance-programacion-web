@@ -10,6 +10,7 @@ integrantes del equipo colocar los nombres completos de los tres alumnos que for
 
 Amin Rojas Chavarria
 Danny Mesén Aguero
+Maria Belen Baltodano Sing
 
 estructura del proyecto mostrar la lista de arhivos html y
 
