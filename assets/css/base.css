@@ -10,6 +10,157 @@ header, footer {
     padding: 15px;
 }
 
-S
+/* ===== Modelo de caja y ajustes del body ===== */
+* {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #ffffff;
+  line-height: 1.5;
+}
 
+/* ===== Encabezado y navegación (Flexbox) ===== */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1,
+h2 {
+  color: #133263;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+/* ===== Tablas ===== */
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+th,
+td {
+  border: 1px solid #133263;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #133263;
+  color: #ffffff;
+}
+
+.fila-vacia {
+  text-align: center;
+  font-style: italic;
+}
+
+/* ===== Formularios, labels y foco visible ===== */
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #133263;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1f6acb;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 3px solid #133263;
+  outline-offset: 2px;
+}
+
+header a:focus {
+  outline-color: #ffffff;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ===== Breakpoint móvil ===== */
+@media (max-width: 767px) {
+  th,
+  td {
+    font-size: 0.875rem;
+    padding: 6px;
+  }
+}
+
+/* ===== Breakpoint escritorio ===== */
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main {
+    padding: 32px;
+  }
+}
