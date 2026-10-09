@@ -173,3 +173,11 @@ img {
 button:hover {
   background-color: #133263;
 }
+/* ===== Detalles finales ===== */
+footer p {
+  margin: 0;
+}
+
+main a {
+  color: #1f6acb;
+}
