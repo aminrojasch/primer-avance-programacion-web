@@ -164,3 +164,12 @@ footer {
     padding: 32px;
   }
 }
+/* ===== Ajustes finales ===== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button:hover {
+  background-color: #133263;
+}
