@@ -9,7 +9,6 @@
 </head>
 <body>
 
-    <!-- Encabezado e identidad del sitio -->
     <header>
         <a href="index.html">
             <strong>QuestPass CR</strong>
@@ -23,25 +22,36 @@
         </nav>
     </header>
 
-    <!-- Contenido principal -->
     <main>
         <h1>Iniciar sesión</h1>
 
         <section class="login-container">
             <p>Ingresa tus credenciales para acceder a la plataforma.</p>
 
-            <form action="#" method="POST">
+            <form action="admin.html" method="get">
                 <fieldset>
                     <legend>Credenciales de acceso</legend>
 
                     <p>
                         <label for="correo">Correo electrónico:</label><br>
-                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="nombre@ucenfotec.ac.cr"
+                            required
+                        >
                     </p>
 
                     <p>
                         <label for="contrasena">Contraseña:</label><br>
-                        <input type="password" id="contrasena" name="contrasena" required>
+                        <input
+                            type="password"
+                            id="contrasena"
+                            name="contrasena"
+                            placeholder="cualquiera123"
+                            required
+                        >
                     </p>
                 </fieldset>
 
@@ -52,21 +62,19 @@
         </section>
     </main>
 
-    <!-- Pie de página -->
     <footer>
         <div>
-        <h3>QuestPass CR</h3>
+            <h3>QuestPass CR</h3>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="detalle.html">Detalle</a></li>
                 <li><a href="experiencias.html">Experiencias</a></li>
                 <li><a href="reservar.html">Reservar</a></li>
-                <li><a href="admin.html">Admin</a></li>
+                <li><a href="login.html">Admin</a></li>
             </ul>
         </div>
     </footer>
 
 </body>
 </html>
-
