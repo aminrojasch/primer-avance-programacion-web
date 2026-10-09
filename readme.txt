@@ -1,30 +1,24 @@
-nombre y descripcion del proyecto incluir 
 
-el nombre questpass cr y 
+# QuestPass CR — Plataforma de Experiencias y Eventos
 
-resumir el proposito de la plataforma de experiencias
+## 📌 Descripción del Proyecto
+**QuestPass CR** es una plataforma web desarrollada para descubrir, consultar y solicitar reservas de experiencias formativas y culturales. Este repositorio contiene la primera versión navegable de la aplicación, enfocada en una estructura HTML5 semántica limpia, maquetación responsive mediante CSS y formularios validados de forma nativa.
 
+---
 
+## 👥 Integrantes del Equipo
+* **Estudiante 1:** Maria Belen Baltodano Sing
+* **Estudiante 2:** Danny Mesén Aguero
+* **Estudiante 3:** Amin Rojas Chavarria
 
-integrantes del equipo colocar los nombres completos de los tres alumnos que forman el grupo
-
-Amin Rojas Chavarria
-Danny Mesén Aguero
-Maria Belen Baltodano Sing
-
-estructura del proyecto mostrar la lista de arhivos html y
-
-la carpeta de estilos css para ver la organizacion
-
-
-instrucciones de uso indicar que solo se debe clonar el repositorio y abrir el archivo index en el navegador
+**Curso:** Diseño y Programación Web (SOFT-06-C2 · Sección SCV5)
+**Institución:** Universidad CENFOTEC
+**Docente Facilitador:** Pablo Monestel
 
 
 
 
-historial de cambios confirmar que cada integrante realizo al menos tres avances registrados en github por miembro 
-
-(revisar bien el documento con esto ultimo)
+## Historial de Commits
 
 
 
