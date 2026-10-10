@@ -105,7 +105,14 @@ article > header {
 }
 
 .evento-card {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+}
+
+.evento-card > a {
+    align-self: flex-start;
+    margin-top: auto;
 }
 
 .codigo {
